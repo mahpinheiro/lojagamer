@@ -6,7 +6,7 @@ const GameCard = ({titulo,preco,imagem}) => {
       <article className="text-center p-4">
         <h2 className="text-xl text-[#95ff00] uppercase mb-3 font-bold">{titulo}</h2>
         <p className="text-white text-2x1 font-bold mb-4">{preco}</p>
-        <button className="bg-gradient-to-r from-cyan-400 to-purple-600 w-[50%] py-2 px-4 rounded-[20px] border-none cursor-pointer font-semibold transition-transform hover: bg-green-800 hover: text-white hover: scale-10">
+        <button className="bg-gradient-to-r from-cyan-400 to-purple-600 w-[50%] py-2 px-4 rounded-[20px] border-none cursor-pointer font-semibold transition-transform hover: bg-green-800 hover: text-white hover: scale-105">
           Comprar
 
         </button>

@@ -10,6 +10,7 @@
     letter-spacing: 10px;
     animation: acender 0.5 forwards;
 }
+
 @keyframes acender {
     to{
         color:var(--text-color);
