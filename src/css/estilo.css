@@ -11,6 +11,17 @@
     animation: acender 0.5 forwards;
 }
 
+.titulo{
+    background-image: linear-gradient(to right, #95ff00,blue,#95ff00);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 700;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.titulo:hover{
+    animation: acender 0.5s forwards;
+}
 @keyframes acender {
     to{
         color:var(--text-color);
